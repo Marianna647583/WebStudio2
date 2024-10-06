@@ -95,6 +95,7 @@
   }
   .business {
     background-color: #2f303a;
+    padding: 200px 0;
   }
   .business__title {
     color: #ffffff;
@@ -106,6 +107,8 @@
     line-height: 60px;
     letter-spacing: 0.06em;
     text-align: center;
+    width: fit-content;
+    margin: 0 auto;
   }
   .business__title__button {
     background-color: #2196f3;
@@ -120,9 +123,14 @@
     line-height: 30px;
     letter-spacing: 0.06em;
     text-align: center;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 30px;
   }
   .about {
     color: #ffffff;
+    padding: 200px 452px 280px;
   }
   .about__title1 {
     font-family: "Roboto", sans-serif;
@@ -240,6 +248,9 @@
     line-height: 42.19px;
     letter-spacing: 0.03em;
     text-align: center;
+  }
+  .people {
+    color: #F5F4FA;
   }
   .people__title {
     color: #212121;
@@ -361,7 +372,7 @@
     background-color: #2f303a;
   }
   .footer__title1 {
-    color: #2196f3;
+    color:  #2196F3;
     font-family: "Raleway", sans-serif;
     width: 145px;
     height: 31px;
@@ -374,7 +385,7 @@
     text-align: left;
   }
   .footer__title2 {
-    color: #000000;
+    color: #F5F4FA;
     font-family: "Raleway", sans-serif;
     width: 145px;
     height: 31px;
