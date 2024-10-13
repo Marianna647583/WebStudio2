@@ -1,10 +1,14 @@
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 .header__logo1 {
     color: #2196f3;
     width: 145px;
     height: 31px;
     top: 24px;
     left: 215px;
-  
     font-family: "Raleway", sans-serif;
     font-size: 26px;
     font-weight: 700;
@@ -18,7 +22,6 @@
     height: 31px;
     top: 24px;
     left: 215px;
-  
     font-family: "Raleway", sans-serif;
     font-size: 26px;
     font-weight: 700;
@@ -32,7 +35,7 @@
   .nav__link1 {
     color: #212121;
     font-family: "Roboto", sans-serif;
-    width: 45px;
+    Width: 45px;
     height: 16px;
     top: 32px;
     left: 453px;
@@ -94,15 +97,15 @@
     letter-spacing: 0.02em;
     text-align: left;
   }
-  main {
-    background-color: #ffffff;
+  .button {
+    padding: 94px 0 34px;
   }
   .portfolio__button1 {
     font-family: "Roboto", sans-serif;
     background-color: #2196f3;
     color: #ffffff;
-    width: 23px;
-    height: 26px;
+    width: 73px;
+    height: 38px;
     top: 180px;
     left: 537px;
     font-size: 16px;
@@ -113,8 +116,8 @@
   }
   .portfolio__button2 {
     font-family: "Roboto", sans-serif;
-    width: 81px;
-    height: 26px;
+    width: 125px;
+    height: 38px;
     top: 180px;
     left: 615px;
     font-size: 16px;
@@ -130,8 +133,8 @@
     font-family: "Roboto", sans-serif;
     background-color: #f5f4fa;
     color: #212121;
-    width: 68px;
-    height: 26px;
+    width: 112px;
+    height: 38px;
     top: 180px;
     left: 748px;
     font-size: 16px;
@@ -145,12 +148,10 @@
     font-family: "Roboto", sans-serif;
     background-color: #f5f4fa;
     color: #212121;
-    width: 59px;
-    height: 26px;
+    width: 103px;
+    height: 38px;
     top: 180px;
     left: 868px;
-    gap: 0px;
-    opacity: 0px;
     font-size: 16px;
     font-weight: 500;
     line-height: 26px;
@@ -162,8 +163,8 @@
     font-family: "Roboto", sans-serif;
     background-color: #f5f4fa;
     color: #212121;
-    width: 86px;
-    height: 26px;
+    width: 130px;
+    height: 38px;
     top: 180px;
     left: 979px;
     font-size: 16px;
@@ -171,6 +172,9 @@
     line-height: 26px;
     letter-spacing: 0.03em;
     text-align: center;
+  }
+  .images {
+    padding: 0 0 94px ;
   }
   .images__item1__text1 {
     font-family: "Roboto", sans-serif;
@@ -408,6 +412,7 @@
 }
 .footer {
   background-color: #2f303a;
+  padding: 60px 0;
 }
 .footer__title1 {
   color: #2196f3;
@@ -416,8 +421,6 @@
   height: 31px;
   top: 2154px;
   left: 215px;
-  gap: 0px;
-  opacity: 0px;
   font-size: 26px;
   font-weight: 700;
   line-height: 30.52px;
@@ -425,14 +428,12 @@
   text-align: left;
 }
 .footer__title2 {
-  color: #000000;
+  color: #F5F4FA;
   font-family: "Raleway", sans-serif;
   width: 145px;
   height: 31px;
   top: 2154px;
   left: 215px;
-  gap: 0px;
-  opacity: 0px;
   font-size: 26px;
   font-weight: 700;
   line-height: 30.52px;
@@ -446,8 +447,6 @@
   height: 21px;
   top: 2205px;
   left: 215px;
-  gap: 0px;
-  opacity: 0px;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -469,14 +468,10 @@ nav > a {
   height: 21px;
   top: 2235px;
   left: 215px;
-  gap: 0px;
-  opacity: 0px;
 }
 .footer__link2 {
   width: 231px;
   height: 21px;
   top: 2265px;
   left: 215px;
-  gap: 0px;
-  opacity: 0px;
 }

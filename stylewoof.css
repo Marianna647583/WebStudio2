@@ -1,3 +1,8 @@
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 .header {
     color: #ffffff;
   }
@@ -53,6 +58,7 @@
     line-height: 16.41px;
     letter-spacing: 0.02em;
     text-align: left;
+    
   }
   .nav__link3 {
     color: #212121;
@@ -95,7 +101,7 @@
   }
   .business {
     background-color: #2f303a;
-    padding: 200px 0;
+    padding: 200px 452px;
   }
   .business__title {
     color: #ffffff;
@@ -107,15 +113,13 @@
     line-height: 60px;
     letter-spacing: 0.06em;
     text-align: center;
-    width: fit-content;
-    margin: 0 auto;
   }
   .business__title__button {
     background-color: #2196f3;
     color: #ffffff;
     font-family: "Roboto", sans-serif;
-    width: 152px;
-    height: 30px;
+    width: 216px;
+    height: 50px;
     top: 440px;
     left: 724px;
     font-size: 16px;
@@ -123,14 +127,10 @@
     line-height: 30px;
     letter-spacing: 0.06em;
     text-align: center;
-    display: block;
-    width: fit-content;
-    margin: 0 auto;
-    margin-top: 30px;
   }
   .about {
     color: #ffffff;
-    padding: 200px 452px 280px;
+    padding: 94px 0;
   }
   .about__title1 {
     font-family: "Roboto", sans-serif;
@@ -183,6 +183,7 @@
     letter-spacing: 0.03em;
     text-align: left;
     color: #212121;
+    
   }
   .about__title1__text1 {
     font-family: "Roboto", sans-serif;
@@ -196,6 +197,8 @@
     letter-spacing: 0.03em;
     text-align: left;
     color: #757575;
+    padding-bottom: 94px;
+
   }
   .about__title2__text2 {
     font-family: "Roboto", sans-serif;
@@ -236,6 +239,9 @@
     text-align: left;
     color: #757575;
   }
+  .section {
+    padding: 94px 0;
+  }
   .section__title {
     color: #212121;
     font-family: "Roboto", sans-serif;
@@ -251,6 +257,7 @@
   }
   .people {
     color: #F5F4FA;
+    padding: 94px 0;
   }
   .people__title {
     color: #212121;
@@ -370,6 +377,7 @@
   }
   .footer {
     background-color: #2f303a;
+    padding: 60px 0;
   }
   .footer__title1 {
     color:  #2196F3;
