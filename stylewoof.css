@@ -6,6 +6,10 @@
 .header {
     color: #ffffff;
   }
+  .header__list {
+    display: flex;
+    justify-content: space-around;
+  }
   .header__logo1 {
     color: #2196f3;
     width: 145px;
@@ -58,7 +62,6 @@
     line-height: 16.41px;
     letter-spacing: 0.02em;
     text-align: left;
-    
   }
   .nav__link3 {
     color: #212121;
@@ -127,6 +130,10 @@
     line-height: 30px;
     letter-spacing: 0.06em;
     text-align: center;
+  }
+  .about__list {
+    display: flex;
+    justify-content: space-around;
   }
   .about {
     color: #ffffff;
@@ -259,6 +266,10 @@
     color: #F5F4FA;
     padding: 94px 0;
   }
+  .people__list {
+    display: flex;
+    justify-content: space-around;
+  }
   .people__title {
     color: #212121;
     font-family: "Roboto", sans-serif;
@@ -271,6 +282,7 @@
     line-height: 42.19px;
     letter-spacing: 0.03em;
     text-align: center;
+    padding: 0 617px 50px;
   }
   .people__item1__text1 {
     color: #212121;

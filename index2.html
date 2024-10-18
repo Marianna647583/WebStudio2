@@ -6,62 +6,73 @@
     <title>Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
   </head>
   <body>
     <header class="header container">
-      <p class="header__logo1">Web</p>
-      <p class="header__logo2">Studio</p>
-      <nav class="nav">
-        <ul>
-          <li class="nav__item1">
-            <a href="#main" class="nav__link1">Студія</a>
-          </li>
-          <li class="nav__item2">
-            <a href="#about" class="nav__link2">Портфоліо</a>
-          </li>
-          <li class="nav__item3">
-            <a href="#people" class="nav__link3">Команда</a>
-          </li>
-          <li class="nav__item4">
-            <a href="mailto:info@devstudio.com" class="nav__link4"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="nav__item5">
-            <a href="tel:+380668248633" class="nav__link5">+380668248633</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <hr>
-    <main class="portfolio">
-      <section class="button container">
-      <ul>
-        <li class="portfolio__item">
-          <button type="button" class="portfolio__button1">Усі</button>
+      <ul class="header__list">
+        <li>
+          <p>
+            <span class="header__logo1">Web</span>
+            <span class="header__logo2">Studio</span>
+          </p>
         </li>
-        <li class="portfolio__item">
-          <button type="button" class="portfolio__button2">Веб-Сайти</button>
+        <li class="nav__item1">
+          <a href="#main" class="nav__link1">Студія</a>
         </li>
-        <li class="portfolio__item">
-          <button type="button" class="portfolio__button3">Додатки</button>
+        <li class="nav__item2">
+          <a href="#about" class="nav__link2">Портфоліо</a>
         </li>
-        <li class="portfolio__item">
-          <button type="button" class="portfolio__button4">Дизайн</button>
+        <li class="nav__item3">
+          <a href="#people" class="nav__link3">Команда</a>
         </li>
-        <li class="portfolio__item">
-          <button type="button" class="portfolio__button5">Маркетинг</button>
+        <li class="nav__item4">
+          <a href="mailto:info@devstudio.com" class="nav__link4"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="nav__item5">
+          <a href="tel:+380668248633" class="nav__link5">+380668248633</a>
         </li>
       </ul>
-    </section>
+    </header>
+    <hr />
+    <main class="portfolio">
+      <section class="button container">
+        <ul class="button__list">
+          <li class="portfolio__item">
+            <button type="button" class="portfolio__button1">Усі</button>
+          </li>
+          <li class="portfolio__item">
+            <button type="button" class="portfolio__button2">Веб-Сайти</button>
+          </li>
+          <li class="portfolio__item">
+            <button type="button" class="portfolio__button3">Додатки</button>
+          </li>
+          <li class="portfolio__item">
+            <button type="button" class="portfolio__button4">Дизайн</button>
+          </li>
+          <li class="portfolio__item">
+            <button type="button" class="portfolio__button5">Маркетинг</button>
+          </li>
+        </ul>
+      </section>
       <section class="images container">
-        <ul>
+        <ul class="images__list">
           <li class="images__item1">
             <img
               class="images__item1__img"
@@ -155,17 +166,23 @@
         </ul>
       </section>
     </main>
-    <hr>
+    <hr />
     <footer class="footer">
       <div class="container">
-      <h1 class="footer__title1">Web</h1>
-      <h1 class="footer__title2">Studio</h1>
-      <address class="footer__address">м. Київ, пр-т Лесі Українки, 26</address>
-      <nav>
-        <a class="footer__link1" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a class="footer__link2" href="+380961111111">+38 096 111 11 11</a>
-      </nav>
-    </div>
+        <h1>
+          <span class="footer__title1">Web</span>
+          <span class="footer__title2">Studio</span>
+        </h1>
+        <address class="footer__address">
+          м. Київ, пр-т Лесі Українки, 26
+        </address>
+        <nav>
+          <a class="footer__link1" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+          <a class="footer__link2" href="+380961111111">+38 096 111 11 11</a>
+        </nav>
+      </div>
     </footer>
   </body>
 </html>
