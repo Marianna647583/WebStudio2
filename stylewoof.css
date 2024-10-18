@@ -249,6 +249,11 @@
   .section {
     padding: 94px 0;
   }
+  .section__list {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+  }
   .section__title {
     color: #212121;
     font-family: "Roboto", sans-serif;
