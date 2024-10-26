@@ -1,195 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webstudio</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="stylewoof.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
-  <body>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--font-family: "Raleway", sans-serif;-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- font-family: "Roboto", sans-serif;-->
+</head>
+<body>
+
+
     <header class="header container">
-      <ul class="header__list">
-        <li>
-          <p class="header__text">
-            <span class="header__logo1">Web</span>
-            <span class="header__logo2">Studio</span>
-          </p>
-        </li>
-        <li class="nav__item1">
+     <p class="header__text">
+        <span class="header__logo1">Web</span>
+        <span class="header__logo2">Studio</span>
+     </p>
+      <nav class="nav">
+        <ul class="header__list">
+        <li class="nav__item">
           <a href="#main" class="nav__link1">Студія</a>
         </li>
-        <li class="nav__item2">
+        <li class="nav__item">
           <a href="#about" class="nav__link2">Портфоліо</a>
         </li>
-        <li class="nav__item3">
+        <li class="nav__item">
           <a href="#people" class="nav__link3">Команда</a>
         </li>
-        <li class="nav__item4">
-          <a href="mailto:info@devstudio.com" class="nav__link4"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li class="nav__item5">
-          <a href="tel:+380668248633" class="nav__link5">+380668248633</a>
-        </li>
-      </ul>
+        </ul>
+         </nav>
+      <div class="header__div">
+        <a href="mailto:info@devstudio.com" class="nav__link4">info@devstudio.com</a>
+        <a href="tel:+380668248633" class="nav__link5">+380668248633</a>
+      </div>  
     </header>
-    <hr />
+    
+    
+    <hr>
     <main class="webstudio-main">
+       
       <section class="business">
         <div class="container">
-          <h1 class="business__title">Ефективні рішення для вашого бізнесу</h1>
-          <button type="button" class="business__title__button container">
-            Замовити послугу
-          </button>
-        </div>
-      </section>
-      <section class="about container">
-        <ul class="about__list">
-          <li class="about__item">
-            <h3 class="about__title1">Увага до деталей</h3>
-            <p class="about__title1__text1">
-              Ідейні міркування, і навіть початок повсякденної роботи з
-              формування позиції.
-            </p>
-          </li>
-          <li class="about__item">
-            <h3 class="about__title2">Пунктуальність</h3>
-            <p class="about__title2__text2">
-              Завдання організації, особливо рамки і місце навчання кадрів тягне
-              у себе.
-            </p>
-          </li>
-          <li class="about__item">
-            <h3 class="about__title3">Планування</h3>
-            <p class="about__title3__text3">
-              Так само консультація з широким активом значною мірою зумовлює.
-            </p>
-          </li>
-          <li class="about__item">
-            <h3 class="about__title4">Сучасні техгології</h3>
-            <p class="about__title4__text4">
-              Значимість цих проблем настільки очевидна, що реалізація планових
-              завдань.
-            </p>
-          </li>
-        </ul>
-      </section>
-      <section class="section container">
-        <h2 class="section__title">Чим ми займаємося</h2>
-        <ul class="section__list">
-          <li>
-            <img
-              class="section__image"
-              src="images/img1.png"
-              alt="фото комп'ютера і хлопця"
-              width="150"
-            />
-          </li>
-          <li>
-            <img
-              class="section__image"
-              src="images/img2.png"
-              alt="фото дизайнера"
-              width="150"
-            />
-          </li>
-          <li>
-            <img
-              class="section__image"
-              src="images/img3.png"
-              alt="фото маркетинга"
-              width="150"
-            />
-          </li>
-        </ul>
-      </section>
-      <section class="people container">
-        <h1 class="people__title">Наша команда</h1>
-        <ul class="people__list">
-          <li class="people__item1">
-            <img
-              class="people__image"
-              src="images/img4.jpg"
-              alt="Фото дівчини"
-              width="150"
-            />
-            <p class="people__item1__text1">Ольга Репіна</p>
-            <p class="people__item1__text2">Frontend Developer</p>
-          </li>
-          <li class="people__item2">
-            <img
-              class="people__image"
-              src="images/img5.jpg"
-              alt="Фото чоловіка"
-              width="150"
-            />
-            <p class="people__item2__text1">Ігор Дем'яненко</p>
-            <p class="people__item2__text2">Product Designer</p>
-          </li>
-          <li class="people__item3">
-            <img
-              class="people__image"
-              src="images/img6.jpg"
-              alt="Фото чоловіка"
-              width="150"
-            />
-            <p class="people__item3__text1">Микола Тарасов</p>
-            <p class="people__item3__text2">Marketing</p>
-          </li>
-          <li class="people__item4">
-            <img
-              class="people__image"
-              src="images/img7.jpg"
-              alt="Фото чоловіка"
-              width="150"
-            />
-            <p class="people__item4__text1">Михайло Єрмаков</p>
-            <p class="people__item4__text2">UI Designer</p>
-          </li>
-        </ul>
-      </section>
-    </main>
-    <hr />
-    <footer class="footer">
+            <h1 class="business__title">Ефективні рішення для вашого бізнесу</h1>
+            <button type="button" class="business__title__button">Замовити послугу</button>
+        </div>  
+       </section>
+        
+       <section class="about container">
+            <ul class="about__list">
+                <li class="about__item">
+                  <h3 class="about__title">Увага до деталей</h3>
+                  <p class="about__title1__text1 text">Ідейні міркування, і навіть початок повсякденної роботи зформування позиції.</p>
+                </li>
+                <li class="about__item">
+                  <h3 class="about__title">Пунктуальність</h3>
+                  <p class="about__title2__text2 text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                </li>
+                <li class="about__item">
+                  <h3 class="about__title">Планування</h3>
+                  <p class="about__title3__text3 text">Так само консультація з широким активом значною мірою зумовлює.</p>
+                </li>
+                <li class="about__item">
+                  <h3 class="about__title">Сучасні техгології</h3>
+                  <p class="about__title4__text4 text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                </li>
+            </ul>
+        </section>
+           
+        <section class="section container">
+              <h2 class="section__title">Чим ми займаємося</h2>
+              <ul class="section__list">
+                <li class="section__list__item">
+                  <img class="section__image" src="images/img1.png" alt="фото комп'ютера і хлопця" />
+                </li>
+                <li class="section__list__item">
+                  <img class="section__image" src="images/img2.png" alt="фото дизайнера" />
+                </li>
+                <li class="section__list__item">
+                  <img class="section__image" src="images/img3.png" alt="фото маркетинга" />
+                </li>
+              </ul>
+            </section>
+            
+            <section class="people container">
+              <h1 class="people__title">Наша команда</h1>
+              <div class="container">
+              <ul class="people__list">
+                <li class="people__item">
+                  <img class="people__image" src="images/img5.jpg" alt="Фото дівчини" width="150"/>
+                  <p class="people__item1__text1 gav">Ольга Репіна</p>
+                  <p class="people__item1__text2 miau">Frontend Developer</p>
+                </li>
+                <li class="people__item">
+                  <img class="people__image" src="images/img4.jpg" alt="Фото чоловіка" width="150"/>
+                  <p class="people__item2__text1 gav">Ігор Дем'яненко</p>
+                  <p class="people__item2__text2 miau">Product Designer</p>
+                </li>
+                <li class="people__item">
+                  <img class="people__image" src="images/img6.jpg" alt="Фото чоловіка" width="150"/>
+                  <p class="people__item3__text1 gav">Микола Тарасов</p>
+                  <p class="people__item3__text2 miau">Marketing</p>
+                </li>
+                <li class="people__item">
+                  <img class="people__image" src="images/img7.jpg" alt="Фото чоловіка" width="150"/>
+                  <p class="people__item4__text1 gav">Михайло Єрмаков</p>
+                  <p class="people__item4__text2 miau">UI Designer</p>
+                </li>
+              </ul>
+            </div>
+        </section>
+      </main>
+    
+    
+      <footer class="footer">
       <div class="container">
         <h1>
           <span class="footer__title1">Web</span>
           <span class="footer__title2">Studio</span>
         </h1>
-        <address class="footer__address">
-          м. Київ, пр-т Лесі Українки, 26
-        </address>
-        <nav>
-          <a class="footer__link1" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
+        <address class="footer__address">м. Київ, пр-т Лесі Українки, 26</address>
+        <nav class="footer__nav">
+          <a class="footer__link1" href="mailto:info@devstudio.com">info@devstudio.com</a>
           <a class="footer__link2" href="+380961111111">+38 096 111 11 11</a>
         </nav>
       </div>
     </footer>
-  </body>
+</body>
 </html>
