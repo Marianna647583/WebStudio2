@@ -146,18 +146,21 @@ body {
 .images__list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 30px;
 }
 
 .images__item {
   border: 1px solid var(--borders);
+  flex-basis: calc((100%-60px) / 3);
   list-style-type: none;
+  width: 270px;
+height: 320px;
 }
 
 .images__item__img {
-  width: 370px;
-  height: 404px;
-  
+  width: 270px;
+  height: 200px;  
 }
 
 .images__item__text1 {

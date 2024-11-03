@@ -20,7 +20,6 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  width: 1600px;
 }
 
 .header {
@@ -126,7 +125,7 @@ body {
 }
 
 .about {
-  padding: 94px 0;
+  padding: 94px 0 0 0;
 }
 
 .about__list {
@@ -176,7 +175,7 @@ body {
 }
 
 .section {
-  padding: 94px 0;
+  padding: 94px 0 0 0;
 }
 
 .section__title {
@@ -185,7 +184,6 @@ body {
   font-size: 36px;
   font-weight: 700;
   line-height: 42.19px;
-  text-align: center;
   color: var(--sweet-black);
 }
 
@@ -208,19 +206,15 @@ body {
 .people {
   background-color: var(--people-white);
   padding: 94px 0;
-  width: 1600px;
 }
 
 .people__title {
   color: var(--sweet-black);
   width: 264px;
   height: 42px;
-  top: 1540px;
-  left: 668px;
   font-size: 36px;
   font-weight: 700;
   line-height: 42.19px;
-  text-align: center;
 }
 
 .people__list {
@@ -246,18 +240,17 @@ body {
   font-size: 16px;
   font-weight: 500;
   line-height: 18.75px;
-  /* letter-spacing: 0.03em; */
   color: var(--sweet-black);
   height: 19px;
   text-align: center;
 }
 
 .people__item1__text1 {
-  width: 129px;
+  width: 104px;
 }
 
 .people__item2__text1 {
-  width: 104px;
+  width: 129px;
 }
 
 .people__item3__text1 {
@@ -272,18 +265,17 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 18.75px;
-  letter-spacing: 0.03em;
   text-align: center;
   height: 19px;
   color: var(--gray);
 }
 
 .people__item1__text2 {
-  width: 130px;
+  width: 147px;
 }
 
 .people__item2__text2 {
-  width: 147px;
+  width: 130px;
 }
 
 .people__item3__text2 {
