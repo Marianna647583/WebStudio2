@@ -96,6 +96,11 @@ body {
   color: var(--gray);
 }
 
+.business__div {
+  display: flex;
+  flex-direction: column;
+}
+
 .business {
   padding: 200px 452px;
   height: 600px;
@@ -109,7 +114,6 @@ body {
   font-weight: 900;
   line-height: 60px;
   letter-spacing: 0.06em;
-  text-align: center;
   color: var(--white);
 }
 
@@ -190,7 +194,7 @@ body {
 .section__list {
   display: flex;
   justify-content: space-between;
-  gap: 30px;
+  gap: 50px;
   padding-top: 50px;
 }
 
@@ -198,9 +202,12 @@ body {
   list-style-type: none;
 }
 
-.section__image {
+.section__image::before {
+  display: block;
   width: 370px;
   height: 294px;
+  content: "";
+  background-image: url(https://img.freepik.com/premium-psd/very-tiny-hamburger-icon_493627-331.jpg);
 }
 
 .people {
