@@ -118,6 +118,7 @@ body {
 }
 
 .business__title__button {
+  box-shadow: -4px 1px 41px 0px rgba(0,0,0,0.75);
   background-color: var(--blue);
   color: var(--white);
   width: 216px;
