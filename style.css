@@ -24,7 +24,6 @@ body {
 
 .header {
   color: var(--white);
-  height: 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -33,7 +32,6 @@ body {
 .header__text {
   font-family: "Raleway", sans-serif;
   width: 145px;
-  height: 31px;
   font-weight: 700;
   font-size: 26px;
   line-height: 30.52px;
@@ -59,19 +57,16 @@ body {
 
 .nav__link1 {
   width: 45px;
-  height: 16px;
   color: var(--blue);
 }
 
 .nav__link2 {
   width: 72px;
-  height: 16px;
   color: var(--sweet-black);
 }
 
 .nav__link3 {
   width: 64px;
-  height: 16px;
   color: var(--sweet-black);
 }
 
@@ -86,47 +81,40 @@ body {
 
 .nav__link4 {
   width: 135px;
-  height: 16px;
   color: var(--blue);
 }
 
 .nav__link5 {
   width: 122px;
-  height: 16px;
   color: var(--gray);
 }
 
-.business__div {
-  display: flex;
-  flex-direction: column;
-}
-
 .business {
-  padding: 200px 452px;
-  height: 600px;
-  background-color: var(--dark-gray);
+  background-image: url(images/Img.png);
+  padding: 200px 0px;
+  display: flex;
 }
 
 .business__title {
   width: 696px;
-  height: 120px;
   font-size: 44px;
   font-weight: 900;
   line-height: 60px;
   letter-spacing: 0.06em;
   color: var(--white);
+  text-align: center;
 }
 
 .business__title__button {
-  box-shadow: -4px 1px 41px 0px rgba(0,0,0,0.75);
+  box-shadow: -4px 1px 41px 0px rgba(0, 0, 0, 0.75);
   background-color: var(--blue);
   color: var(--white);
   width: 216px;
-  height: 50px;
   font-size: 16px;
   font-weight: 700;
   line-height: 30px;
   letter-spacing: 0.06em;
+  justify-content: center;
 }
 
 .about {
@@ -142,7 +130,6 @@ body {
 .about__title {
   color: var(--sweet-black);
   width: 270px;
-  height: 16px;
   font-size: 14px;
   font-weight: 700;
   line-height: 16.41px;
@@ -150,8 +137,34 @@ body {
   text-align: left;
 }
 
-.about__item {
+.about__item1::before {
+  display: inline;
   list-style-type: none;
+  content: "";
+  background-image: url(images/about1.png);
+}
+
+.about__item2::before {
+  display: inline;
+  list-style-type: none;
+  content: "";
+  background-image: url(images/about2.png);
+}
+
+.about__item3::before {
+  display: inline;
+  list-style-type: none;
+  content: "";
+  background-image: url(images/about3.png);
+}
+
+.about__item4::before {
+  display: inline;
+  width: 270px;
+  height: 120px;
+  list-style-type: none;
+  content: "";
+  background-image: url(images/about4.png);
 }
 
 .text {
@@ -163,29 +176,12 @@ body {
   color: var(--gray);
 }
 
-.about__title1__text1 {
-  height: 72px;
-}
-
-.about__title2__text2 {
-  height: 48px;
-}
-
-.about__title3__text3 {
-  height: 48px;
-}
-
-.about__title4__text4 {
-  height: 72px;
-}
-
 .section {
   padding: 94px 0 0 0;
 }
 
 .section__title {
   width: 366px;
-  height: 42px;
   font-size: 36px;
   font-weight: 700;
   line-height: 42.19px;
@@ -195,20 +191,11 @@ body {
 .section__list {
   display: flex;
   justify-content: space-between;
-  gap: 50px;
-  padding-top: 50px;
+  gap: 30px;
 }
 
 .section__list__item {
   list-style-type: none;
-}
-
-.section__image::before {
-  display: block;
-  width: 370px;
-  height: 294px;
-  content: "";
-  background-image: url(https://img.freepik.com/premium-psd/very-tiny-hamburger-icon_493627-331.jpg);
 }
 
 .people {
@@ -219,7 +206,6 @@ body {
 .people__title {
   color: var(--sweet-black);
   width: 264px;
-  height: 42px;
   font-size: 36px;
   font-weight: 700;
   line-height: 42.19px;
@@ -227,7 +213,7 @@ body {
 
 .people__list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 30px;
 }
 
@@ -241,7 +227,6 @@ body {
 
 .people__image {
   width: 270px;
-  height: 260px;
 }
 
 .gav {
@@ -249,7 +234,6 @@ body {
   font-weight: 500;
   line-height: 18.75px;
   color: var(--sweet-black);
-  height: 19px;
   text-align: center;
 }
 
@@ -274,7 +258,6 @@ body {
   font-weight: 400;
   line-height: 18.75px;
   text-align: center;
-  height: 19px;
   color: var(--gray);
 }
 
@@ -306,7 +289,6 @@ body {
 .footer__text {
   font-family: "Raleway", sans-serif;
   width: 145px;
-  height: 31px;
   font-weight: 700;
   font-size: 26px;
   line-height: 30.52px;
